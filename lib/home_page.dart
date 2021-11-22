@@ -12,6 +12,7 @@ class MyHomePage extends StatelessWidget {
               borderRadius: BorderRadius.circular(20)),
           backgroundColor: Colors.redAccent,
           centerTitle: true,
+          leading: Text("yenilik"),
           actions: <Widget>[
           IconButton(onPressed: null, icon: Icon(Icons.add_circle),
       alignment: Alignment.centerRight,),
